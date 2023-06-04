@@ -28,7 +28,7 @@ void enqueue(Queue *queue, int data)
 {
     if (isFull(queue))
     {
-        printf("Queue penuh. Tidak bisa menambahkan %d.\n", data);
+        printf("Queue penuh.Tidak bisa menambahkan %d.\n", data);
         return;
     }
     if (isEmpty(queue))
